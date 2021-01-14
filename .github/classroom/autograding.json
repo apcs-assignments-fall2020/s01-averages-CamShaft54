@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Mean",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMean",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Median",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMedian",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Mode",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMode",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
